@@ -12,7 +12,7 @@ end
 
 def assign_rooms(names)
   names.each_with_index.map do |attendee, index|
-    "Hello, #{attendee}! You'll be assigned to room #{index+1}!\n"
+    puts "Hello, #{attendee}! You'll be assigned to room #{index+1}!"
   end
   
 end
@@ -20,7 +20,7 @@ end
 def printer(names)
   arr = batch_badge_creator(names)
   arr.each do |badge|
-    puts badge + '\n'
+    puts badge
   end
   puts assign_rooms(names)
 end
