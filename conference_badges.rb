@@ -12,9 +12,8 @@ end
 
 def assign_rooms(names)
   room_num = 1
-  names.each do |speaker|
-    puts "Hello, #{speaker}! You'll be assigned to room #{room_num}!"
-    room_num += 1
+  attendees.each_with_index.map do |attendee, index|
+    "Hello, #{attendee}! You'll be assigned to room #{index+1}!"
   end
   
 end
