@@ -22,4 +22,4 @@ def printer(names)
   puts assign_rooms(names)
 end
 
-printer(["Robert"])
+printer(["Robert", "Jim"])
