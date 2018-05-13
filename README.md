@@ -3,7 +3,7 @@
 ## Objectives
 
 1. Define methods that use iteration and control the return values of those methods.
-2. Define methods that call other methods.
+2. Define methods that call other methods.https://learn.co/tracks/web-development-fundamentals/intro-to-ruby/arrays-and-iteration/badges-and-schedules#
 
 ## Instructions
 
